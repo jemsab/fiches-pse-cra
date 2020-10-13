@@ -3,7 +3,7 @@
 Les lignes précédées d'un "//" sont des commentaires
 Les lignes d'instructions se terminent par un ";"
 
-## A- Les variables
+## A- LES VARIABLES
 
     // Déclaration d'une variable
     SOIT maVariable de type Type; // par ex:[Booléen, Entier, Texte, Date, Réel etc...]
@@ -90,15 +90,50 @@ Les lignes d'instructions se terminent par un ";"
 					instruction a.2;
 		FIN SELON;
 
-## C- Les méthodes
+## C- LES METHODES
 
 		// Regroupement d'instructions sous un nom générique.
 		
 		// Déclaration d'une méthode
-		SOIT la méthode ma_Méthode( liste des Variables Typées )
+		SOIT la méthode ma_Méthode( liste des Variables Typées ) dans la classe MaClasse
+		// En général la classe d'affectation de la méthodes est "Gestionnaire"
 		// Commentaire sur ce que fait la méthode et ce qu'elle renvoie (type de l'élément renvoyé)
 			instruction 1;
 			instruction 2;
 			instruction 3;
 			
 			RETOURNER résultat ; // résultat est une variable
+
+## D- ALGO ORIENTEE OBJETS
+
+		// Pour l'exercice d'algorithme prévu dans la qualification, il est préférable d'utiliser les 
+		// convention suivantes liées à une orientation JAVA:
+		
+### a- L'instanciation
+		
+		// L'utilisation d'un objet dans le pseudo-code est précédé d'une instanciation
+		// Les listes ou les tableaux sont également des objets qu'il faut instancier
+		// Le but de l'instanciation est d'éviter le message d'erreur Java Null Pointer exception !
+		INSTANCIER monObjet;
+		
+### b- Récupérer la valeur d'un attribut d'un Objet
+		
+		// En Java les attributs de classe sont privés et pour en récupérer la valeur il faut passer par
+		// la méthode de classe get(Attribut)
+		
+		valeur <- monObjet.get_monAttribut();
+		
+### c- Modifier ou initialiser la valeur d'un attribut
+		
+		// De la même façon que pour lire une valeur, la mise à jour doit être réalisée via la méthode set_attribut(valeur);
+		
+		monObjet.set_monAttribut(valeur);
+
+### d- Méthodes génériques associées aux objets
+
+		// On peut considérer les méthodes suivantes comme étant inclues dans la définition de tous les objets
+		
+		 Pour une liste ou une collection d'objets:
+		 maListe.ajouterElement(element);
+		 maListe.supprimerElement(element);
+		 maListe.getNombreElement();
