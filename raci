@@ -1,0 +1,76 @@
+Sujet : Les partenaires d'un projet et leurs relations
+
+Intro :
+  Les projets informatiques sont de plus en plus complexes et font intervenir de nombreux acteurs tout au long du cycle de vie d'une application.
+  Depuis l'expression du besoin jusqu'à sa mise en production et son retrait, de nombreux métiers différents sont sollicités dans un objectif commun de réalisation d'une application cible.
+  Dans un premier temps nous verrons les partenaires en action dans le cadre d'un projets mené en cycle en V et les problématiques associées. Dans un second temps nous aborderons l'organisation d'un projet avec les méthodes agiles
+  
+  1- Les principaux partenaires dans le cadre d'un cycle en V
+    
+    A- Les acteurs et leurs attributions
+    
+      - MOA
+      - MOE
+      - Chef de projet
+      - Utilisateurs
+      - Fournisseurs
+      - Exploitation
+      - Equipe d'assistance
+      - Architectes
+      - Developpeurs
+      - Test IA/IIA/Pré production
+      
+      La matrice RACI
+      
+      Des outils
+       
+        - Comitologie Comité de dir / projet /coordination / ateliers techniques / GT
+        
+     B- Les problématiques
+      
+      - Effet tunnel
+      - La prise en compte des évolution durant le développement du projet
+      - Le triptique Coût / Qualité / Délai contrainte sur les fonctions
+      - La documentation
+      Dans l'objectif d'atteindre de l recette fonctionnelle
+      
+   2- Les acteurs et les attributions dans un projet Agile
+      
+     A- Une équipe resserée
+      
+      Scrum Master 
+        - Un facilitateur
+        - Garant de la méthode
+        - Allocation des ressources
+        - Pilote des réunions quotidiennes
+        
+      Le Product Owner
+        - Recueil des besoins Stories / Backlog
+        - Gestion des priorité
+        - Lien avec le client et les key users
+      
+      Team
+        - Equipe de développement pluridisciplinaire
+        
+       Des intervenants transverse
+        - Analystes
+        - Architectes
+        - Sécurité
+        - Qualité
+        - Achats /Appro
+        
+      Les livrables SRPINTS
+      
+      B- Les problématiques
+      
+        Difficulté de faire matcher l'organisation d'équipe resserées avec des projets d'envergure nationale et la déclinaison de la méthode au sein de la DGFIP par exemple
+        PAssage à l'échelle
+        
+     
+ CONCLUSION :
+ 
+     Les méthodes agiles sont en train d'être adoptées dans les grandes administrations et les grandes entreprises.
+     Cette méthodologie a porté ses fruits dans la réduction des délais de livraison d'applications mobiles pour la sncf par exemple
+     
+     Cette organisation doit être complétée par la mise en place d'outils DevOps qui avec la généralisation du Cloud permettent le déploiement d'applications et de plateformes de façon continue 
+    
